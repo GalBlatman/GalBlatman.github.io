@@ -1,6 +1,7 @@
 ---
 title: "Encoding my field's editorial standards into reusable skills"
 description: "What I learned writing down the standards that usually live in editors' heads."
+tags: [tools]
 ---
 
 [DRAFT. This file lives in _drafts and will not publish. Edit it, then move it to _posts with a date-prefixed filename, for example _posts/2026-08-25-the-writing-skills.md.]
