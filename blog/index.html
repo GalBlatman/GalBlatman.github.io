@@ -1,0 +1,157 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blog | Gal Blatman</title>
+<meta name="description" content="Notes from Gal Blatman on tools, side projects, reading, and whatever else is going on outside the research.">
+<meta property="og:title" content="Blog | Gal Blatman">
+<meta property="og:description" content="Notes from Gal Blatman on tools, side projects, reading, and whatever else is going on outside the research.">
+<meta property="og:type" content="website">
+<link rel="canonical" href="https://galblatman.com/blog/">
+<link rel="alternate" type="application/atom+xml" title="Gal Blatman: Blog" href="/feed.xml">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='6' y='12' width='4' height='14' rx='1' fill='%231D4B3F'/%3E%3Crect x='14' y='6' width='4' height='20' rx='1' fill='%231D4B3F'/%3E%3Crect x='22' y='16' width='4' height='10' rx='1' fill='%231D4B3F'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=STIX+Two+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#F5F4EE; --ink:#1B201D; --spruce:#1D4B3F; --spruce-dark:#143B31;
+  --muted:#5A625D; --line:#DCDDD4; --panel:#ECEDE4;
+  --serif:'STIX Two Text', Georgia, 'Times New Roman', serif;
+  --sans:'IBM Plex Sans', -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;
+}
+*{box-sizing:border-box}
+html{font-size:17px}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--serif);line-height:1.65;-webkit-font-smoothing:antialiased}
+a{color:var(--spruce);text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px}
+a:hover{color:var(--spruce-dark)}
+:focus-visible{outline:2px solid var(--spruce);outline-offset:2px}
+.wrap{max-width:46rem;margin:0 auto;padding:0 1.25rem}
+
+header.site{padding:1.5rem 0 .5rem}
+header.site .wrap{display:flex;justify-content:space-between;align-items:baseline;gap:.8rem 1.2rem;flex-wrap:wrap}
+.brand{font-family:var(--sans);font-weight:600;letter-spacing:.16em;text-transform:uppercase;font-size:.8rem;color:var(--ink);text-decoration:none}
+nav.main a{font-family:var(--sans);font-size:.76rem;letter-spacing:.13em;text-transform:uppercase;text-decoration:none;color:var(--muted);margin-left:1.1rem;white-space:nowrap}
+nav.main a:first-child{margin-left:0}
+nav.main a:hover{color:var(--spruce)}
+nav.main a[aria-current="page"]{color:var(--spruce);border-bottom:2px solid var(--spruce);padding-bottom:2px}
+
+.marks{display:flex;gap:6px;align-items:flex-end;height:36px;margin:0 0 1.15rem}
+.marks i{display:block;width:3px;background:var(--spruce);border-radius:1px}
+
+.hero{padding:2.4rem 0 .4rem}
+.hero-grid{display:grid;grid-template-columns:1fr;gap:1.8rem}
+@media(min-width:700px){.hero-grid{grid-template-columns:1fr auto;align-items:start}}
+h1{font-family:var(--serif);font-size:clamp(2.3rem,6vw,3.25rem);line-height:1.08;margin:0 0 .55rem;font-weight:600;letter-spacing:-.01em}
+.role{font-family:var(--sans);font-size:.85rem;color:var(--muted);margin:0 0 1.4rem;letter-spacing:.02em;line-height:1.55}
+.portrait-slot{margin:0}
+.portrait{width:172px;height:206px;object-fit:cover;border:1px solid var(--line);border-radius:4px;display:block}
+@media(max-width:699px){.portrait{width:132px;height:158px}}
+.lede p{margin:0 0 1.05rem;font-size:1.04rem}
+.contactline{font-family:var(--sans);font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;margin:1.4rem 0 0}
+.contactline a{text-decoration:none;margin-right:1.4rem}
+
+.eyebrow{font-family:var(--sans);font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--spruce);font-weight:600;margin:0 0 .45rem}
+h2{font-size:1.42rem;margin:2.8rem 0 .9rem;font-weight:600}
+h2:first-of-type{margin-top:2.1rem}
+main p{margin:0 0 1rem}
+main img{max-width:100%;height:auto;border:1px solid var(--line);border-radius:4px}
+blockquote{margin:1.2rem 0;padding:.1rem 0 .1rem 1.1rem;border-left:3px solid var(--line);color:var(--muted)}
+pre{background:var(--panel);padding:1rem;overflow-x:auto;border-radius:4px;font-size:.84rem;line-height:1.5}
+code{font-family:ui-monospace,'SF Mono',Menlo,Consolas,monospace;font-size:.92em;background:var(--panel);padding:.1em .35em;border-radius:3px}
+pre code{background:none;padding:0}
+
+ul.features{display:grid;gap:1.5rem;margin:2.3rem 0 0;padding:0;list-style:none}
+@media(min-width:700px){ul.features{grid-template-columns:repeat(3,1fr);gap:1.6rem}}
+.features li{border-top:2px solid var(--spruce);padding-top:.85rem}
+.features p{margin:.15rem 0 .55rem;font-size:.97rem;line-height:1.55}
+.features a{font-family:var(--sans);font-size:.72rem;letter-spacing:.13em;text-transform:uppercase;text-decoration:none;font-weight:500}
+
+.jmp{border-left:3px solid var(--spruce);padding:.25rem 0 .3rem 1.15rem;margin:2.6rem 0 0}
+.jmp h3{font-size:1.16rem;margin:.1rem 0 .25rem;font-weight:600}
+.jmp .meta{font-family:var(--sans);font-size:.79rem;color:var(--muted);margin:0 0 .55rem}
+.jmp p{margin:.35rem 0}
+
+.pub{margin:0 0 1.8rem}
+.pub h3{font-size:1.12rem;margin:0 0 .2rem;font-weight:600;line-height:1.4}
+.pub .meta{font-family:var(--sans);font-size:.78rem;color:var(--muted);letter-spacing:.03em;margin:0 0 .45rem}
+.pub p{margin:.3rem 0}
+.note{font-family:var(--sans);font-size:.82rem;color:var(--muted);border-top:1px solid var(--line);padding-top:1rem;margin-top:2.4rem}
+
+ul.courses,ul.postlist{list-style:none;padding:0;margin:1.2rem 0 0}
+ul.courses li,ul.postlist li{border-top:1px solid var(--line);padding:.85rem 0}
+ul.courses .what{font-weight:600}
+ul.courses .where{font-family:var(--sans);font-size:.8rem;color:var(--muted);margin-top:.15rem}
+.postlist .pdate{font-family:var(--sans);font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.postlist h3{font-size:1.14rem;margin:.25rem 0 .2rem;font-weight:600}
+.postlist h3 a{text-decoration:none}
+.postlist h3 a:hover{text-decoration:underline}
+.postlist p{margin:.15rem 0 0;font-size:.96rem}
+
+.post-head{margin:2.1rem 0 1.8rem}
+.post-head .pdate{font-family:var(--sans);font-size:.76rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:0 0 .5rem}
+.post-head h1{font-size:clamp(1.7rem,4.5vw,2.3rem)}
+.backlink{font-family:var(--sans);font-size:.74rem;letter-spacing:.12em;text-transform:uppercase;text-decoration:none;display:inline-block;margin-top:2rem}
+
+footer{margin-top:4rem;border-top:1px solid var(--line);padding:1.7rem 0 2.3rem;font-family:var(--sans);font-size:.85rem;color:var(--muted);line-height:1.7}
+footer .name{color:var(--ink);font-weight:600}
+footer a{text-decoration:none}
+.smallprint{margin-top:1.3rem;font-size:.73rem;letter-spacing:.06em}
+
+@media(prefers-reduced-motion:no-preference){
+  .rise{opacity:0;transform:translateY(10px);animation:rise .55s ease forwards}
+  .rise.d1{animation-delay:.07s}.rise.d2{animation-delay:.14s}.rise.d3{animation-delay:.21s}
+  @keyframes rise{to{opacity:1;transform:none}}
+}
+</style>
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="/index.html">Gal Blatman</a>
+    <nav class="main" aria-label="Site">
+      <a href="/research.html">Research</a>
+      <a href="/teaching.html">Teaching</a>
+      <a href="/blog/" aria-current="page">Blog</a>
+      <a href="/assets/Gal_Blatman_CV.pdf">CV</a>
+    </nav>
+  </div>
+</header>
+<main>
+
+<section>
+  <div class="wrap">
+    <h2>Blog</h2>
+    <p>The research lives on the <a href="/research.html">research page</a>. This is everything else: tools I build, side projects, notes on what I am reading, and occasional updates.</p>
+    <ul class="postlist">
+      {% for post in site.posts %}
+      <li>
+        <div class="pdate">{{ post.date | date: "%b %-d, %Y" }}</div>
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        {% if post.description %}<p>{{ post.description }}</p>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+    <p class="note">Subscribe by RSS at <a href="/feed.xml">/feed.xml</a>.</p>
+  </div>
+</section>
+
+</main>
+<footer>
+  <div class="wrap">
+    <p><span class="name">Gal Blatman</span><br>
+    Post-Doctoral Researcher, Zage Business of Energy Transition Initiative<br>
+    USC Marshall School of Business<br>
+    701 Exposition Blvd., 302 Bridge Hall, Los Angeles, CA 90089</p>
+    <p><a href="mailto:Gal.Blatman@marshall.usc.edu">Gal.Blatman@marshall.usc.edu</a> &nbsp;&middot;&nbsp; <a href="/assets/Gal_Blatman_CV.pdf">Curriculum Vitae (PDF)</a></p>
+    <!-- TODO: once you have the URLs, add links here, for example:
+    <p><a href="https://scholar.google.com/citations?user=YOURID">Google Scholar</a> &nbsp;&middot;&nbsp; <a href="https://www.linkedin.com/in/YOURHANDLE">LinkedIn</a></p>
+    -->
+    <p class="smallprint">&copy; 2026 Gal Blatman</p>
+  </div>
+</footer>
+</body>
+</html>

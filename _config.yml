@@ -1,0 +1,17 @@
+title: Gal Blatman
+url: "https://galblatman.com"
+timezone: America/Los_Angeles
+permalink: /blog/:title/
+plugins:
+  - jekyll-feed
+feed:
+  path: feed.xml
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+exclude:
+  - DEPLOY.md
+  - HOW_TO_POST.md
