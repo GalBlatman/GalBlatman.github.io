@@ -1,6 +1,7 @@
 ---
 title: "Teaching Claude to review like an editor"
-description: "A pre-submission diagnostic inverts the norms of peer review, because the audience is inverted. Building that inversion into a Claude skill, then testing it against an editorial record it had never seen."
+date: 2026-08-18 18:00:00 -0700
+description: "A pre-submission diagnostic should not behave like a peer review: the author is the one asking. I built one as a Claude skill and tested it against an editorial record it had never seen."
 tags: [tools]
 ---
 
@@ -102,7 +103,7 @@ Naming these with examples matters because "don't sound like an AI" is not an in
 
 <p class="margin-note">progressive disclosure: protocol up front, calibration on call</p>
 
-The skill is three files. `SKILL.md`, about 270 lines, is always loaded: the stance, the input handling, and a twelve-section protocol. `references/tone_and_register.md` holds the voice calibration and the eight anti-patterns, consulted before writing. `references/exhaustive_checklist.md` holds the scanning catalog for the section-by-section sweep: numerical consistency across tables and text, construct drift, hedge language, citation hygiene, per-section and per-method checks, and an opt-in reference style audit keyed to journal conventions, since AMJ wants ampersands and ASQ wants "and" and the model should not guess.
+The skill is three files. `SKILL.md`, about 270 lines, is always loaded: the stance, the input handling, and a twelve-section protocol. `references/tone_and_register.md` holds the voice calibration and the eight anti-patterns, consulted before writing. `references/exhaustive_checklist.md` holds the scanning catalog for the section-by-section sweep: numerical consistency across tables and text, construct drift, hedge language, citation hygiene, per-section and per-method checks, and an opt-in reference style audit keyed to journal conventions, because house styles differ and change, and the model should not guess.
 
 Three moves in the protocol earn their keep more than the rest. First, actual versus claimed contribution, including a required sentence stating what a hostile reader would say the paper is really about. That one sentence is worth the exercise. Second, hypothesis diagnosticity: classify every result as non-diagnostic, suggestive, discriminating, or highly probative. Many papers' first hypotheses are non-diagnostic, and it is better to hear that from your own tool than from Reviewer 3. Third, cut, rewrite, keep: the review ends with a revision memo, not a mood.
 
@@ -165,7 +166,7 @@ So the download is a scaffold, not a finished instrument, and the honest recomme
 <p class="facts">3 files · 12-section protocol · 8 named anti-patterns<br>
 tracked-changes and Word-comment aware · opt-in journal-style reference audit<br>
 always-on citation consistency check · no harshness dial</p>
-<p><a href="/assets/academic-manuscript-review.skill">Download academic-manuscript-review.skill</a></p>
+<p><a href="/assets/academic-manuscript-review.zip" download>Download academic-manuscript-review.zip</a></p>
 </div>
 
 If it catches something your co-authors missed, or produces one of the failure modes it was designed against, I want to hear about it. The paper-authoring counterpart is the next build.
@@ -174,7 +175,7 @@ If it catches something your co-authors missed, or produces one of the failure m
 
 <p class="refs">Ballinger, G. A., &amp; Johnson, R. E. 2015. Editors' comments: Your first AMR review. <i>Academy of Management Review</i>, 40: 315-322.</p>
 
-<p class="refs">Lepak, D. 2009. Editor's comments: What is good reviewing? <i>Academy of Management Review</i>, 34: [verify page range].</p>
+<p class="refs">Lepak, D. 2009. Editor's comments: What is good reviewing? <i>Academy of Management Review</i>, 34: 375-381.</p>
 
 <p class="refs">Ragins, B. R. 2015. Editor's comments: Developing our authors. <i>Academy of Management Review</i>, 40: 1-8.</p>
 
