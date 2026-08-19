@@ -8,7 +8,7 @@ tags: [tools]
 
 <style>
 .essay{--red:#B42B3C;--red-deep:#5c2730;--red-wash:#F6E7E9;--mono:'IBM Plex Mono',ui-monospace,monospace}
-.essay h1.title{font-family:'Newsreader',Georgia,serif;font-size:clamp(2rem,5vw,2.7rem);line-height:1.12;margin:.2rem 0 .7rem;font-weight:600;letter-spacing:-.01em}
+article .post-head h1{font-family:'Newsreader',Georgia,serif;font-size:clamp(2rem,5vw,2.7rem);line-height:1.12;margin:0 0 .55rem;font-weight:600;letter-spacing:-.01em}
 .essay .deck{font-size:1.06rem;margin:0 0 1.6rem}
 .essay .eyebrow{font-family:var(--mono);font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--red);margin:0 0 .5rem}
 .essay .specimen{border-left:3px solid var(--red);background:var(--red-wash);padding:.9rem 1.1rem;margin:1.8rem 0;border-radius:0 3px 3px 0}
@@ -35,8 +35,6 @@ tags: [tools]
 </style>
 
 <div class="essay" markdown="1">
-
-<h1 class="title">Teaching Claude to review like an editor</h1>
 
 <p class="deck">A pre-submission diagnostic looks like a peer review but has to invert its norms, because the audience is inverted: when the author is the one asking, exhaustiveness is a form of respect. I built that inversion into a Claude skill using my field's editorial philosophy, real decision letters from top journals in my field, and one instructive bad review, then tested it against an editorial record it had never seen. The corpus, the judgment calls, and the test design are mine. Here is what worked and where it broke.</p>
 
