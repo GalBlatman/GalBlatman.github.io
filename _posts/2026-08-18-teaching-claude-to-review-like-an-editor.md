@@ -31,6 +31,7 @@ tags: [tools]
 .essay ol.patterns{padding-left:1.2rem}
 .essay ol.patterns li{margin-bottom:.75rem}
 .essay ol.patterns b{font-weight:600}
+.essay .refs{font-size:.94rem;padding-left:1.4rem;text-indent:-1.4rem;margin:0 0 .5rem}
 </style>
 
 <div class="essay" markdown="1">
@@ -43,14 +44,6 @@ tags: [tools]
 <span class="label">Specimen: from an AI-generated peer review</span>
 <q><span class="strike">I want to be clear that I am not recommending rejection because the idea is uninteresting;</span> I am recommending Reject &amp; Resubmit because the current execution falls short of the bar.</q>
 <span class="annot">// delete: a hedge, not an argument</span>
-## References
-
-Ballinger, G. A., &amp; Johnson, R. E. 2015. Editors' comments: Your first AMR review. *Academy of Management Review*, 40: 315-322.
-
-Lepak, D. 2009. Editor's comments: What is good reviewing? *Academy of Management Review*, 34: [verify page range].
-
-Ragins, B. R. 2015. Editor's comments: Developing our authors. *Academy of Management Review*, 40: 1-8.
-
 </div>
 
 ## The problem: fluent reviews that don't work like reviews
@@ -178,5 +171,13 @@ always-on citation consistency check · no harshness dial</p>
 </div>
 
 If it catches something your co-authors missed, or produces one of the failure modes it was designed against, I want to hear about it. The paper-authoring counterpart is the next build.
+
+<h2>References</h2>
+
+<p class="refs">Ballinger, G. A., &amp; Johnson, R. E. 2015. Editors' comments: Your first AMR review. <i>Academy of Management Review</i>, 40: 315-322.</p>
+
+<p class="refs">Lepak, D. 2009. Editor's comments: What is good reviewing? <i>Academy of Management Review</i>, 34: [verify page range].</p>
+
+<p class="refs">Ragins, B. R. 2015. Editor's comments: Developing our authors. <i>Academy of Management Review</i>, 40: 1-8.</p>
 
 </div>
