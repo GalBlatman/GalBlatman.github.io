@@ -57,7 +57,7 @@ What exactly is in this dataset? Why does this row exist? What does this field r
 
 Then you learn the project.
 
-A column becomes institutional pressure. A coding decision becomes the measure. A specification becomes the standard specification. Six inferential steps get compressed into a phrase because you have walked them so many times that walking them again would be absurd.
+A column becomes *institutional pressure*. A coding decision becomes *the measure*. A specification becomes *the standard specification*. Six inferential steps get compressed into a phrase because you have walked them so many times that walking them again would be absurd.
 
 This is not sloppiness. It is what expertise is for.
 
@@ -65,7 +65,7 @@ Nobody could do research if every familiar assumption had to be reconstructed fr
 
 Occasionally, though, the thing you compressed contains the problem.
 
-By the time I ran this paper through the skill, I no longer saw two emissions calculations and an accounting rule. I saw the compliance-performance gap. I knew perfectly well what went into it. That was almost the problem. The name had become easier to see than the machinery underneath it.
+By the time I ran this paper through the skill, I no longer saw two emissions calculations and an accounting rule. I saw *the compliance-performance gap*. I knew perfectly well what went into it. That was almost the problem. The name had become easier to see than the machinery underneath it.
 
 I have one case. I do not know why any particular reviewer missed anything.
 
@@ -75,7 +75,7 @@ If the manuscript called something a measure of X, inspect what went into the me
 
 The skill was not actually naive.
 
-But I had made naivety procedural.
+*But I had made naivety procedural.*
 
 ## Shared expertise has a weird downside
 
