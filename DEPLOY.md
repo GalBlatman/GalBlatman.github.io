@@ -15,7 +15,7 @@ The site is three main pages (index.html, research.html, teaching.html), a blog 
 ## 1. Before launch: two files and two links
 
 1. Export your CV from Word as a PDF and save it as `assets/Gal_Blatman_CV.pdf` (exact name, it is linked from every page).
-2. Add a professional headshot as `assets/headshot.jpg` (portrait orientation, roughly 800 px wide). Optionally add `assets/classroom.jpg`, a photo of you teaching or presenting, which appears on the Teaching page. Both photo slots hide themselves if the files are missing, so the site works before you add them.
+2. Add a professional headshot as `assets/headshot.jpg` (portrait orientation, roughly 800 px wide). The photo slot hides itself if the file is missing, so the site works before you add it.
 3. When you have your Google Scholar and LinkedIn URLs, open each HTML file (including `_layouts/post.html`), find the comment marked `TODO` in the footer, and uncomment that line with your links filled in.
 4. Optional: if you buy a domain other than galblatman.com, update the `url` line in `_config.yml` and the `canonical` links near the top of each HTML file.
 
