@@ -5,8 +5,6 @@ description: "A pre-submission diagnostic should not behave like a peer review: 
 tags: [tools]
 ---
 
-<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
-
 <style>
 .essay{--red:#B42B3C;--red-deep:#5c2730;--red-wash:#F6E7E9;--mono:'IBM Plex Mono',ui-monospace,monospace}
 article .post-head h1{font-family:'Newsreader',Georgia,serif;font-size:clamp(2rem,5vw,2.7rem);line-height:1.12;margin:0 0 .55rem;font-weight:600;letter-spacing:-.01em}
