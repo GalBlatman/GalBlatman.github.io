@@ -41,6 +41,11 @@ a:hover{color:var(--spruce-dark)}
 .skip{position:absolute;left:-9999px;top:0;background:var(--spruce);color:#fff;padding:.55rem 1rem;font-family:var(--sans);font-size:.8rem;z-index:10;text-decoration:none;border-radius:0 0 4px 0}
 .skip:focus{left:0}
 
+/* Header height is reserved so nav wrapping cannot move content below it.
+   These values are measured against the current nav of four links and an
+   11-character brand. Adding a nav item or lengthening the brand changes
+   the wrap thresholds (342px, 483px) and requires re-measuring both the
+   thresholds and the reserved heights. */
 header.site{padding:1.5rem 0 .5rem;min-height:127px}
 @media(min-width:342px){header.site{min-height:99px}}
 @media(min-width:483px){header.site{min-height:62px}}
