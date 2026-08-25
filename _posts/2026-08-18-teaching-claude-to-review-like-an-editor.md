@@ -6,8 +6,8 @@ tags: [tools]
 ---
 
 <style>
-.essay{--red:#B42B3C;--red-deep:#5c2730;--red-wash:#F6E7E9;--mono:'IBM Plex Mono',ui-monospace,monospace}
-article .post-head h1{font-family:'Newsreader',Georgia,serif;font-size:clamp(2rem,5vw,2.7rem);line-height:1.12;margin:0 0 .55rem;font-weight:600;letter-spacing:-.01em}
+.essay{--red:#B42B3C;--red-deep:#5c2730;--red-wash:#F6E7E9;--mono:'IBM Plex Mono','IBM Plex Mono Fallback',ui-monospace,monospace}
+article .post-head h1{font-family:'Newsreader','Newsreader Fallback',Georgia,serif;font-size:clamp(2rem,5vw,2.7rem);line-height:1.12;margin:0 0 .55rem;font-weight:600;letter-spacing:-.01em}
 .essay .deck{font-size:1.06rem;margin:0 0 1.6rem}
 .essay .eyebrow{font-family:var(--mono);font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--red);margin:0 0 .5rem}
 .essay .specimen{border-left:3px solid var(--red);background:var(--red-wash);padding:.9rem 1.1rem;margin:1.8rem 0;border-radius:0 3px 3px 0}
@@ -68,7 +68,7 @@ A Claude skill is a small folder: one instruction file the model always reads wh
 - **A negative exemplar.** The AI-generated review, which became the single most useful document in the pile.
 - **My own protocols.** A twelve-section review prompt I had been iterating on, and a Reviewer 2 persona with a one-to-five harshness dial that I ultimately rejected.
 
-## The design decision everything follows from: a diagnostic is not a review
+## A diagnostic is not a review
 
 <p class="margin-note">the audience inversion: when the author is the reader, exhaustiveness is the respect</p>
 
