@@ -19,6 +19,6 @@ Figures can be extracted as separate files. Equations are harder: PDF text layer
 
 It works best on born-digital PDFs. Scanned papers can go through Tesseract, and complicated tables, unusual layouts, and equations are still the places most likely to need checking. The preview is there for a reason.
 
-[Download markerlite.zip](/assets/markerlite.zip). It runs locally and does not send the paper anywhere. Setup notes are included for the Windows app and command-line use. The vendored module keeps Marker's license; for the rest, as with the review skill, write to me before redistributing or adapting.
+[markerlite is on GitHub](https://github.com/GalBlatman/markerlite). It runs locally and does not send the paper anywhere. Setup notes are included for the Windows app and command-line use. There is also a Windows build that needs no Python install, on the repository's Releases page. It is not code-signed, since signing certificates cost real money, so Windows will show a "Windows protected your PC" dialog the first time: click More info, then Run anyway. If you would rather read the code than trust a dialog, that is what the repository is for. The vendored module keeps Marker's license; for the rest, as with the review skill, write to me before redistributing or adapting.
 
 If it chokes on a layout, send me the PDF. Layouts I have not met are how it improves.
