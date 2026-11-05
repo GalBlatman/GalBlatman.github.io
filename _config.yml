@@ -4,6 +4,7 @@ timezone: America/Los_Angeles
 permalink: /blog/:title/
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 feed:
   path: feed.xml
 defaults:
