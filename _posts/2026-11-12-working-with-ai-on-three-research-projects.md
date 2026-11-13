@@ -1,5 +1,5 @@
 ---
-title: "What three research projects are teaching me about working with AI"
+title: "The pauses were part of the method"
 description: "AI made my research faster, and the speed created problems of its own. Notes on what went wrong, what I changed, and the skills I built for Claude and ChatGPT."
 tags: [tools]
 date: 2026-11-12 17:00:00 -0800
